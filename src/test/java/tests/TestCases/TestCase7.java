@@ -1,6 +1,7 @@
 package tests.TestCases;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import utils.BrowserFactory;
@@ -27,20 +28,18 @@ public class TestCase7 {
         // 4. Click “Upload” button.
         driver.findElement(By.id("file-submit")).click();
         // 5. Verify that subject is: “File Uploaded!”
-        WebElement Result = driver.findElement(By.id("uploaded-files"));
+        WebElement Result = driver.findElement(By.xpath("//html//body//div//div//div//div//h3"));
         System.out.println(Result.getText());
         Assert.assertEquals(Result.getText(), "File Uploaded!", "Test Failed");
-
-            driver.findElement(By.linkText("File Upload")).click();
-            // 6. Verify that uploaded file name is displayed.Note: use element.sendKeys(“/file/path”) with specifying path to the file for uploading.
-            // Run this method against “Choose File” button.
-            driver.findElement(By.id("file-upload")).sendKeys("/Users/hatice akyol/Desktop/Practice");
-            driver.findElement(By.id("file-submit")).click();
-            //WebElement Result = driver.findElement(By.id("uploaded-files"));
-            System.out.println(Result.getText());
-            Assert.assertEquals(Result.getText(), "Practice", "Test Failed");
-
-            driver.quit();
+        // 6. Verify that uploaded file name is displayed.
+        // Note: use element.sendKeys(“/file/path”) with specifying path to the file for uploading.
+        // Run this method against “Choose File” button.
+        WebElement filename = driver.findElement(By.id("uploaded-files"));
+        System.out.println(filename.getText());
+        Assert.assertEquals(filename.getText(),"Practice","Test Failed");
         }
+     @AfterMethod
+     public void teardown(){ driver.quit();
+    }
     }
 
