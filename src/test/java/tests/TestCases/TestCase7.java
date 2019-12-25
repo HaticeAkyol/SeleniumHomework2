@@ -17,7 +17,6 @@ public class TestCase7 {
         driver = BrowserFactory.getDriver("chrome");
         //1. Go to “https://practice-cybertekschool.herokuapp.com”
         driver.get("https://practice-cybertekschool.herokuapp.com");
-
     }
     @Test
     public void test(){
