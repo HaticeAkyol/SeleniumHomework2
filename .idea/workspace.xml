@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0725c4aa-6256-4004-ae93-d367f65bfe61" name="Default Changelist" comment="" />
+    <list default="true" id="0725c4aa-6256-4004-ae93-d367f65bfe61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/TestCases/TestCase9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCases/TestCase6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCases/TestCase7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCases/TestCase8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCases/TestCase9_12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCases/TestCases1_2_3_4_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCases/TestCase6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCases/TestCase7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCases/TestCase8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCases/TestCase9_12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCases/TestCases1_2_3_4_5.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,52 +64,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestCase7.test">
+  <component name="RunManager" selected="TestNG.TestCase9">
     <configuration name="TestCase6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumHomework2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.TestCases.*" />
+          <option name="PATTERN" value="test.TestCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.TestCases" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestCases.TestCase6" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCase6.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumHomework2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.TestCases" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestCases.TestCase6" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCase7" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumHomework2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.TestCases" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestCases.TestCase7" />
+      <option name="PACKAGE_NAME" value="homework2.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="test.TestCases.TestCase6" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -108,12 +86,12 @@
       <module name="SeleniumHomework2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.TestCases.*" />
+          <option name="PATTERN" value="test.TestCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.TestCases" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestCases.TestCase7" />
+      <option name="MAIN_CLASS_NAME" value="test.TestCases.TestCase7" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -122,17 +100,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases1_2_3_4_5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase9" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumHomework2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.TestCases.*" />
+          <option name="PATTERN" value="test.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="test.TestCases.TestCase9" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase9_12.test10" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumHomework2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.TestCases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.TestCases" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestCases.TestCases1_2_3_4_5" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="test.TestCases.TestCase9_12" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase9_12.test9" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumHomework2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="test.TestCases.TestCase9_12" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCase9" />
+        <item itemvalue="TestNG.TestCase9_12.test9" />
         <item itemvalue="TestNG.TestCase7.test" />
-        <item itemvalue="TestNG.TestCase7" />
         <item itemvalue="TestNG.TestCase6" />
-        <item itemvalue="TestNG.TestCase6.test" />
-        <item itemvalue="TestNG.TestCases1_2_3_4_5" />
+        <item itemvalue="TestNG.TestCase9_12.test10" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577262805744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1577263166036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577263166036</updated>
+    </task>
+    <task id="LOCAL-00003" summary="second commit">
+      <created>1577263279557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577263279557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +203,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -184,5 +214,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/utils/Driver.java</url>
+          <line>8</line>
+          <properties field="driver" class="utils.Driver" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
